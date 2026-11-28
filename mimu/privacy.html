@@ -7,22 +7,41 @@ body{background:#FCF7F2;color:#2B2440;font:17px/1.6 -apple-system,Segoe UI,Robot
 main{max-width:720px;margin:auto} h1,h2,h3{font-family:Georgia,serif} a{color:#5B60CF}
 </style></head><body><main>
 <h1>Privacy Policy for Mimu: Baby Tracker &amp; Feeding</h1>
-<p><em>Last updated: 27 November 2026</em></p>
+<p><em>Last updated: 28 November 2026</em></p>
 <p>This policy explains how the Mimu mobile app (&quot;the app&quot;), published by Venky Studio (&quot;we&quot;), handles information. Mimu is for parents and carers; it holds information about your baby that you choose to write down. If you have questions, contact us at venkyroyals.contact@gmail.com.</p>
 
 <h2>The short version</h2>
 <ul>
-<li>Everything you log stays <strong>on your phone</strong> (and on your watch, if you use Mimu there).</li>
-<li>Mimu has <strong>no accounts</strong> and we run <strong>no servers</strong> that receive your information. We cannot see your log.</li>
+<li>Everything you log stays <strong>on your phone</strong> unless you turn on <strong>Share with family</strong>.</li>
+<li>If you share, a locked (end-to-end encrypted) copy of the log is kept in the cloud so the people you invite can see it. It is locked on your phone before it leaves, and only your family&#x27;s phones hold the key: we cannot read it. You can stop and delete that copy at any time.</li>
 <li>No ads. No selling of data. No analytics or tracking software.</li>
 </ul>
 
 <h2>Information stored on your device</h2>
-<p>Your baby&#x27;s name, birthday, sex and the look you chose for Mimu; everything you log (feeds, sleep, nappies or diapers, pumping and the milk stash, growth measurements, medicines as you typed them, temperatures, symptoms, foods, teeth, firsts, notes and your own trackers); the vaccine record and appointments you entered; the phone numbers you saved; photos you attached; and your settings are stored <strong>only on your device</strong>. We do not receive this information and we cannot see it.</p>
+<p>Your baby&#x27;s name, birthday, sex and the look you chose for Mimu; everything you log (feeds, sleep, nappies or diapers, pumping and the milk stash, growth measurements, medicines as you typed them, temperatures, symptoms, foods, teeth, firsts, notes and your own trackers); the vaccine record and appointments you entered; the phone numbers you saved; photos you attached; and your settings are stored <strong>on your device</strong>. Unless you turn on sharing (below), we do not run servers that receive this information and we cannot see it.</p>
 <p>If backup is turned on for your phone, Android may include the app&#x27;s data in your device backup, which Google stores in your Google account, and on an iPhone, iCloud Backup may include it in your iCloud account. We cannot see those backups.</p>
 
+<h2>Sharing with family (only if you turn it on)</h2>
+<p>With <strong>Family → Share with family</strong> the same log appears on the phones of people you invite. To make that possible:</p>
+<ul>
+<li><strong>End-to-end encrypted:</strong> the shared log (your baby&#x27;s name, birthday, sex and look, and the entries and records listed above) and the name each family member typed for themselves are encrypted on your phone (AES-256-GCM) with a key that is made on the phone that starts the family. The key travels only inside the invite codes you send yourself, and is never sent to us or to Google. What we and Google store is unreadable without it.</li>
+<li><strong>What is kept in the cloud without encryption,</strong> because the service needs it to work: an account identifier for each member, each member&#x27;s role (parent, family, carer, or just watching), when they joined, which member and which phone (a random identifier) made each change and when, whether a member&#x27;s Pro purchase covers the family, and, for invite codes, the family, role and expiry time (the rest of an invite is encrypted). <strong>Photos are not uploaded</strong>; they stay on the phone that added them. Settings that belong to one phone (units, night mode, reminders) are not uploaded.</li>
+<li><strong>Where:</strong> in <strong>Google Firebase</strong> (Firebase Authentication and Cloud Firestore), services of Google that we use to store the data on our behalf. The shared log is stored on Google&#x27;s servers in the <strong>United States</strong>, and sign-in details are processed by Google in the United States, wherever you live. If you are in a country whose law limits sending personal information abroad, Google&#x27;s data processing terms (with the standard contractual clauses where they apply) cover that transfer. On top of our own end-to-end encryption, Google encrypts the data in transit and at rest. Google&#x27;s privacy information: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+<li><strong>Who can read it:</strong> only members of your family group. People join with a code that a parent creates in the app; a code works for 48 hours and gives the role the parent chose. A parent can remove anyone at any time. We cannot read your log or your family&#x27;s names, and we cannot hand them to anyone, because we do not have the key.</li>
+<li><strong>A new phone:</strong> because only your family&#x27;s phones hold the key, signing in on a new phone finds your family but cannot open its log. Ask someone in the family (or use your other phone) for a code to open it there. If no phone holding the key is left, the cloud copy cannot be opened by anyone, us included; keep a backup file (You → Your data) if that matters to you.</li>
+<li><strong>Your sign-in:</strong> when you turn on sharing or join a family, the app creates an account for you. At first it is an anonymous account that lives on your phone. You can add a sign-in (Apple, Google, or an email address and password) so a new phone can find your family (opening its log there also needs a code, see above); we then store that email address or account identifier with Firebase Authentication. Passwords are handled by Firebase and we cannot see them.</li>
+</ul>
+<h3>Stopping and deleting</h3>
+<ul>
+<li><strong>Leave the family</strong> (Family → Leave this family): your phone stops sharing. What you had so far stays on your phone. If you were the only member, the cloud copy of the log is deleted.</li>
+<li><strong>Remove someone</strong> (a parent can): their phone stops receiving the log; what they already received stays on their phone.</li>
+<li><strong>Delete your sign-in</strong> (Family → Your sign-in → Delete my sign-in): your account is deleted. If you are the only member of the family, the cloud copy of the log is deleted too.</li>
+<li>You can also ask us to delete your account and your family&#x27;s cloud data by writing to venkyroyals.contact@gmail.com from the email address of your sign-in, or with your invite code details if you have no sign-in. We delete within 30 days. The steps are also on the <a href="delete.html">delete your account page</a>.</li>
+</ul>
+<p>We keep the cloud copy for as long as the family group exists. Entries deleted in the app are removed from every phone; a small marker that the entry was deleted is kept so that it does not come back from a phone that was offline.</p>
+
 <h2>Health information</h2>
-<p>Mimu records what you enter and does arithmetic on it (totals, time since, your baby&#x27;s own usual pattern). It contains no medical reference data and gives no medical advice. Information about your baby&#x27;s feeding, sleep, growth, medicines and vaccinations is sensitive: anyone you give a backup file, a report or a summary to can read it.</p>
+<p>Mimu records what you enter and does arithmetic on it (totals, time since, your baby&#x27;s own usual pattern). It contains no medical reference data and gives no medical advice. Information about your baby&#x27;s feeding, sleep, growth, medicines and vaccinations is sensitive: think about who you invite, and remember that anyone you give a backup file or a report to can read it.</p>
 
 <h2>Reminders, widgets and Live Activity</h2>
 <p>Reminders are scheduled on your device. If you add a Mimu widget (Android home screen; iPhone Home Screen and Lock Screen) or use the Live Activity on iPhone, a small summary (your baby&#x27;s name and age, whether they are asleep or feeding and since when, the time of the last feed and nappy, today&#x27;s counts) and drawings of Mimu are saved in storage on your device that the widget can read. Buttons on a widget log on your device. None of this sends information to us. Lock Screen widgets and the Live Activity can be seen by anyone who can see your locked phone.</p>
@@ -30,32 +49,29 @@ main{max-width:720px;margin:auto} h1,h2,h3{font-family:Georgia,serif} a{color:#5
 <h2>Watches</h2>
 <p>If you install Mimu on a <strong>Wear OS</strong> watch or an <strong>Apple Watch</strong>, the phone app sends it the same small summary and drawings, and the watch sends back what you tap (for example &quot;fell asleep&quot; or &quot;wet nappy&quot;). On Wear OS this goes through Google Play services, over Bluetooth or Wi-Fi, and through Google&#x27;s servers when your phone and watch are not near each other; on Apple Watch it goes through Apple&#x27;s Watch Connectivity. We do not receive it.</p>
 
-<h2>Siri, Shortcuts and speaking a log</h2>
-<p>On iPhone you can log by voice or from the Shortcuts app (for example &quot;Log wet nappy in Mimu&quot;). Apple handles the voice request under its own privacy policy; the log itself is made on your device. &quot;Say it or type it&quot; uses the microphone button of your own keyboard: your keyboard turns speech into text and Mimu only receives the text. Mimu does not ask for microphone access.</p>
+<h2>Siri and Shortcuts (iPhone)</h2>
+<p>You can log by voice or from the Shortcuts app (for example &quot;Log wet nappy in Mimu&quot;). Apple handles the voice request under its own privacy policy; the log itself is made on your device.</p>
 
 <h2>Photos</h2>
-<p>Photos you attach (for example a page of the health book or a medicine label) are ones you pick yourself. They are copied into the app&#x27;s storage on your phone and are never uploaded.</p>
+<p>Photos you attach (for example a page of the health book or a medicine label) are ones you pick yourself. They are copied into the app&#x27;s storage on your phone and are not uploaded, not even when you share with family.</p>
 
 <h2>Backup files, reports and sending the day</h2>
-<p>You can save a backup file, export a table (.csv), make a report for the doctor (PDF) or send a summary of the day or a handover as a message. The app makes these on your device and hands them to the place you choose (your files, a cloud drive, mail or chat). We never receive them. A backup file holds your whole log and settings, so keep it somewhere you trust.</p>
+<p>You can save a backup file, export a table (.csv), make a report for the doctor (PDF) or send a summary of the day or a handover as a message. The app makes these on your device and hands them to the place you choose (your files, a cloud drive, mail or chat). We never receive them.</p>
 
 <h2>Purchases</h2>
-<p>Mimu Pro (a monthly or yearly subscription, or a one-time lifetime purchase) is processed by <strong>Google Play</strong> or the <strong>App Store</strong>. We do not receive or store your payment details. Google&#x27;s handling of purchase information is described in Google&#x27;s privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>, and Apple&#x27;s in Apple&#x27;s privacy policy: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></p>
+<p>Mimu Pro (a monthly or yearly subscription, or a one-time lifetime purchase) is processed by <strong>Google Play</strong> or the <strong>App Store</strong>. We do not receive or store your payment details. Sharing with family is part of Mimu Pro. The fact that someone in the family has Pro is noted in the family group, so that sharing runs and Pro opens for the other members; if nobody has Pro any more, sharing pauses and the locked copy stays in the cloud until Pro is back or the family is deleted.</p>
 
 <h2>Advertising and analytics</h2>
 <p><strong>Mimu shows no ads</strong> and contains no advertising or analytics software. It does not use your advertising identifier and never asks to track you.</p>
 
-<h2>Contacting us</h2>
-<p>If you choose &quot;Contact us&quot;, your email app opens with a draft addressed to us. Nothing is sent unless you send that email yourself, and we only use it to reply to you.</p>
-
 <h2>Who may use Mimu</h2>
-<p>Mimu is for adults (parents and carers). It is not directed at children. The information about your baby is entered by you and stays with you.</p>
+<p>Mimu is for adults (parents and carers). It is not directed at children, and children should not create accounts. The information about your baby is entered by you; you are responsible for having the right to share it with the people you invite.</p>
 
-<h2>Your rights and deleting your data</h2>
-<p>Everything Mimu holds is on your device, visible and editable in the app. <strong>You → Your data</strong> lets you save or send a copy, and <strong>Delete everything</strong> removes all of it from the phone. Uninstalling the app also removes it (copies in your own device backups or backup files stay where you put them). Because we hold no information about you, there is nothing for us to delete; if you have a question, write to us.</p>
+<h2>Your rights</h2>
+<p>Depending on where you live, you may have the right to see, correct, export or delete personal information and to withdraw consent. In Mimu you can do all of these yourself: everything is visible and editable in the app, <strong>You → Your data</strong> exports it, and the steps above delete it. For anything else, write to us.</p>
 
 <h2>Changes to this policy</h2>
-<p>We may update this policy from time to time, for example if a future version adds a way to share the log with family. Changes will be posted at this address with a new &quot;Last updated&quot; date, and any new feature that sends information off your phone will be optional and explained in the app before you turn it on.</p>
+<p>We may update this policy from time to time. Changes will be posted at this address with a new &quot;Last updated&quot; date.</p>
 <h2>Contact</h2>
 <p>Venky Studio (Mimu: Baby Tracker &amp; Feeding)<br>venkyroyals.contact@gmail.com</p>
 </main></body></html>
